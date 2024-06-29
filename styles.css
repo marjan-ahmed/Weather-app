@@ -1,0 +1,210 @@
+/* Default styles (for desktop) */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1498496294664-d9372eb521f3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.weather-body {
+    background: rgb(187, 220, 233);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    margin: 0 auto; /* Center the weather body */
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+}
+
+#city-input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+}
+
+#country-name {
+    margin-top: -20px;
+}
+
+.weather-img {
+    margin-top: -20px;
+}
+
+#temp {
+    margin-top: -5px;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -20px;
+}
+
+#weather-description {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+i {
+    font-size: 40px;
+}
+
+.details {
+    padding-top: 7vh;
+}
+
+.humidity-sec {
+    position: absolute;
+    left: 400px;
+}
+
+#humidity-per {
+    margin-left: 6.3vw;
+    margin-top: -7vh;
+}
+
+#humidity {
+    margin-top: -3vh;
+    margin-left: 9.3vw;
+}
+
+.fa-wind {
+    margin-left: -14vw;
+}
+
+.wind-sec {
+    margin-left: 23vw;
+}
+
+#wind-per {
+    margin-left: -3vw;
+    margin-top: -7vh;
+}
+
+#wind-speed {
+    margin-top: -3vh;
+    margin-left: -1.5vw;
+}
+
+#search-button {
+    padding: 10px;
+    width: 100%;
+    background: #00796b;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+#search-button:hover {
+    background: #004d40;
+}
+
+.weather-info {
+    display: none;
+    margin-top: 20px;
+}
+
+.temperature,
+.details {
+    margin-top: 10px;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .weather-body {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+    .humidity-sec{
+        position: relative; /* Adjust positioning for smaller screens */
+        left: auto;
+        margin-right: 65vw;
+        margin-top: -10px; /* Example adjustment */
+    }
+    #humidity-per{
+        margin-top: -45px;
+    }
+    #humidity-per,#humidity{
+        margin-left: 60px;
+    }
+
+    .wind-sec{
+        position: relative; /* Adjust positioning for smaller screens */
+        left: auto;
+        margin-left: 30vw;
+        margin-top: -56px; /* Example adjustment */
+    }
+    #wind-per{
+        margin-top: -45px;
+        margin-left: 10vw;
+    }
+    #wind-per,#wind-speed{
+        margin-left: 24vw;
+    }
+
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    .weather-body {
+        width: 80%; /* Full width for smaller mobile screens */
+        border-radius: 0; /* Optionally remove border-radius for full width */
+    }
+    .humidity-sec{
+        position: relative; /* Adjust positioning for smaller screens */
+        left: auto;
+        margin-right: 65vw;
+        margin-top: -10px; /* Example adjustment */
+    }
+    #humidity-per{
+        margin-top: -45px;
+    }
+    #humidity-per,#humidity{
+        margin-left: 60px;
+    }
+
+    .wind-sec{
+        position: relative; /* Adjust positioning for smaller screens */
+        left: auto;
+        margin-left: 30vw;
+        margin-top: -56px; /* Example adjustment */
+    }
+    #wind-per{
+        margin-top: -45px;
+        margin-left: 10vw;
+    }
+    #wind-per,#wind-speed{
+        margin-left: 24vw;
+    }
+
+    #temp {
+        font-size: 28px; /* Adjust font size for smaller screens */
+    }
+    .details {
+        padding-top: 5vh; /* Adjust padding for smaller screens */
+    }
+    #search-button {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
