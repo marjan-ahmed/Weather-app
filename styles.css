@@ -11,7 +11,7 @@ body {
 }
 
 .weather-body {
-    background: rgb(11, 86, 121);
+    background: #0b5679;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -124,7 +124,7 @@ i {
     cursor: pointer;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.2em;
 }
