@@ -1,4 +1,3 @@
-/* Default styles (for desktop) */
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -169,7 +168,7 @@ i {
         margin-top: -56px; /* Example adjustment */
     }
     #wind-per{
-        margin-top: -45px;
+        margin-top: -40px;
         margin-left: 10vw;
     }
     #wind-per,#wind-speed{
