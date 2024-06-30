@@ -11,7 +11,7 @@ body {
 }
 
 .weather-body {
-    background: rgb(20, 133, 185);
+    background: rgb(11, 86, 121);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -118,9 +118,9 @@ i {
 #search-button {
     padding: 10px;
     width: 100%;
-    background: #00796b;
+    background: #0c3044;
     color: #ffffff;
-    border: none;
+    border: 2px solid rgb(14, 40, 80);
     cursor: pointer;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
@@ -130,7 +130,7 @@ i {
 }
 
 #search-button:hover {
-    background: #004d40;
+    background: #07293d;
 }
 
 .weather-info {
