@@ -1,1 +1,1 @@
-# random-qoute-generator
+# Weather App Using HTML, CSS and JS (OpenWeather API)

@@ -12,13 +12,15 @@ body {
 }
 
 .weather-body {
-    background: rgb(187, 220, 233);
+    background: rgb(20, 133, 185);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 400px;
     margin: 0 auto; /* Center the weather body */
+    color: rgb(231, 240, 255);
+    border: 2px solid rgb(22, 107, 156);
 }
 
 .search {
@@ -26,18 +28,29 @@ body {
 }
 
 input {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 16px;
     text-transform: capitalize;
     padding: 10px;
     width: calc(100% - 22px);
     margin-bottom: 10px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
 }
 
 #city-input {
     padding: 10px;
     width: calc(100% - 22px);
     margin-bottom: 10px;
+}
+
+#city-input:active{
+    border: 2px solid rgb(16, 78, 114);
+}
+
+#city-input:focus{
+    border: 2px solid black;
 }
 
 #country-name {

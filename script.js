@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             const response = await fetch(url);
-            if (!response.ok) {
-                throw new Error(`City not found: ${cityName}`);
-            }
+            // if (!response.ok) {
+            //     throw new Error(`City not found: ${cityName}`);
+            // }
             const weatherData = await response.json();
 
 
